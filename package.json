@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsx basic-calls/claude-sdk.ts"
+    "start": "tsx basic-calls/openrouter-sdk.ts"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^1.3.0"
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@openrouter/sdk": "^1.5.33",
+    "dotenv": "^18.0.9"
   }
 }
